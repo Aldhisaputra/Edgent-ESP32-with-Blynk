@@ -57,18 +57,6 @@ Saya menggunakan **example dari Blynk** dan melakukan penyesuaian agar dapat ber
 
 ---
 
-## 🔌 Diagram Koneksi ESP32 ke Sensor MQ2
-
-+------------------+             +---------------+
-|     ESP32 Dev    |             |   Sensor MQ2   |
-|     Module       |             |               |
-|                  |             |               |
-|  GPIO 34 (A0)    +------------>+   AO           |
-|  GND             +------------>+   GND          |
-|  3V3             +------------>+   VCC          |
-+------------------+             +---------------+
-
-
 > ⚠️ MQ2 hanya kompatibel dengan **pin analog**, contohnya **GPIO34** atau **GPIO36** pada ESP32  
 > Gunakan **tegangan 3.3V (3V3)** dari ESP32, bukan VIN
 
